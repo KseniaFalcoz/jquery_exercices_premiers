@@ -1,3 +1,3 @@
-$( "button" ).click(function() {
-    $( "#texte_2" ).empty();
-  });
+$("button").click(function() {
+    $("#texte_2").empty();
+});
