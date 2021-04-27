@@ -8,7 +8,7 @@ $('#texte').click(function(event) { // $(#texte') = $('p')
 $(function(){
     $("#texte").click(function(){
         $(this).hide();
-    })
+    });
 });
 
 /*
@@ -19,6 +19,6 @@ $(document).ready(function() {
 Ce qui équivaut à la manière recommandée d'appeler:
 
 $(function() {
-    .....
+    $('#texte').hide();
 });
 */
