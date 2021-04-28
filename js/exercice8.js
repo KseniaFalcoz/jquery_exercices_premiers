@@ -1,9 +1,3 @@
-/*
-$("ol.li").on("mouseover", function() {
-    $(this).children().css("color", "red");
-});*/
-
-
-$(function() {
-  $("ol.li").children().css({"color": "red"});  // {} pour plusieur propriorite
+$("ol li").on("mouseover", function() {
+  $("ol li").css("color", "red");  //  $("ol").children() encore $("ol > li")
 });
